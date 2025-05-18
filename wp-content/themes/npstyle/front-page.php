@@ -154,7 +154,7 @@ get_header();
 
     </div>
 </div>
-
+<?php echo do_shortcode('[cost_calculator]');?>
 <main id="primary" class="site-main">
 
     <?php

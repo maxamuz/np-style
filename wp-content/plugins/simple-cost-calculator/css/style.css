@@ -1,0 +1,168 @@
+.scc-calculator {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background: #f9f9f9;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.scc-field {
+  margin-bottom: 15px;
+}
+
+.scc-field label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 600;
+  color: #333;
+}
+
+.scc-input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.scc-button {
+  width: 100%;
+  background: #4caf50;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  transition: background 0.3s;
+}
+
+.scc-button:hover {
+  background: #45a049;
+}
+
+.scc-result {
+  margin-top: 20px;
+  padding: 15px;
+  background: #e9f7ef;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.scc-result h4 {
+  margin: 0 0 10px 0;
+  color: #2e7d32;
+}
+
+#scc-total {
+  font-size: 24px;
+  font-weight: bold;
+  color: #1b5e20;
+}
+
+/* Дополнительные стили для новых элементов */
+.scc-input[type="number"] {
+  width: 100%;
+}
+
+.scc-input[type="select"] {
+  width: 100%;
+  padding: 10px;
+  height: auto;
+}
+
+.loading {
+  color: #2196f3;
+  font-style: italic;
+}
+
+.error {
+  color: #f44336;
+}
+
+.total-sum {
+  font-weight: bold;
+  font-size: 1.2em;
+  margin-top: 10px;
+  color: #4caf50;
+}
+
+.scc-result div {
+  margin-bottom: 5px;
+}
+
+.scc-radio-group {
+    margin-top: 8px;
+}
+
+.scc-radio {
+    display: block;
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-weight: normal;
+    user-select: none;
+}
+
+/* Скрываем оригинальный radio */
+.scc-radio input {
+    position: absolute;
+    opacity: 0;
+    height: 0;
+    width: 0;
+}
+
+/* Кастомный radio */
+.scc-radio .radio-checkmark {
+    position: absolute;
+    top: 2px;
+    left: 0;
+    height: 18px;
+    width: 18px;
+    background-color: #fff;
+    border: 2px solid #ddd;
+    border-radius: 50%;
+}
+
+/* При наведении */
+.scc-radio:hover input ~ .radio-checkmark {
+    border-color: #aaa;
+}
+
+/* Когда radio выбран */
+.scc-radio input:checked ~ .radio-checkmark {
+    border-color: #4CAF50;
+}
+
+/* Индикатор выбора (точка внутри) */
+.scc-radio .radio-checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+    top: 3px;
+    left: 3px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #4CAF50;
+}
+
+/* Показываем индикатор при выборе */
+.scc-radio input:checked ~ .radio-checkmark:after {
+    display: block;
+}
+
+/* Анимация при клике */
+.scc-radio input:checked ~ .radio-checkmark {
+    animation: radio-pulse 0.3s;
+}
+
+@keyframes radio-pulse {
+    0% { box-shadow: 0 0 0 0 rgba(76, 175, 80, 0.4); }
+    70% { box-shadow: 0 0 0 8px rgba(76, 175, 80, 0); }
+    100% { box-shadow: 0 0 0 0 rgba(76, 175, 80, 0); }
+}
