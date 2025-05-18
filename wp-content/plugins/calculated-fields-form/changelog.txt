@@ -1,0 +1,970 @@
+== Changelog ==
+
+= 5.3.53 =
+
+* Modified the AI Equation Assistant module by integrating a new model, altering the prompt and settings, and postprocessing the answer to generate more useful code.
+* Added a new feature to the password controls that allows users to unmask the password text as they type.
+* Implemented several improvements to the "Create New Forms" screen to streamline the user experience.
+* Removed deprecated jQuery code to enhance the codebase's performance and maintain compatibility.
+* Fixed a minor issue affecting the display of user emails in the entries section for commercial plugin distributions..
+
+= 5.3.52 =
+
+* Optimized the page break control by removing unnecessary code.
+* Improved the character counter functionality in textarea controls.
+* Modified template 07 to increase the contrast ratio, resulting in an improved Google score.
+* Updated the interface of DS controls (for Developer and Platinum plugin distributions).
+* Fixed an issue in the Event Calendar add-on (Platinum plugin distribution).
+
+= 5.3.51 =
+
+* Fixed an issue with the form submission URL that was causing conflicts with certain services and third-party plugins.
+
+= 5.3.50 =
+
+* We have introduced three new predefined forms: two for lifestyle, namely the Carbon Footprint Calculator and the Solar Power Investment Calculator, and one for the transportation category, the Car Purchase vs Lease Calculator.
+
+= 5.3.49 =
+
+* Modifies the AJAX-based form submission process to prevent users from inadvertently submitting the form multiple times.
+* Updates the CSS and HTML code editor to address a scrolling issue when the editor is in fullscreen mode.
+
+= 5.3.48 =
+
+* We have implemented two new predefined forms in the Financial category: one for generating the Form 1040 U.S. Individual Income Tax Return, and another for generating Schedule C - Business Income and Expenses.
+
+= 5.3.47 =
+
+* Modified the spinner components in number and currency fields so they become continuous, eliminating the need to click repeatedly to adjust control values.
+* Ensured that placeholders remain synchronized with third-party fields when used as default values.
+* Improved the WooCommerce add-on to resolve a conflict with third-party themes that alter the behavior of add-to-cart buttons on WooCommerce products (applies to Developer and Platinum plugin versions).
+* Implemented a new feature in the WebHooks add-on that allows the use of short labels instead of field names in the WebHook URL. This enhancement simplifies reusing the same WebHook URL for multiple forms (applies to Developer and Platinum plugin versions).
+
+= 5.3.46 =
+
+* Modifies the plugin interface by removing unnecessary sections. In the commercial plugin distributions, it unifies all payment methods—including those implemented via add-ons and complementary plugins—under the Payment Settings section.
+* Implements adjustments in form generation that ensure compatibility with browser Speculation.
+* Expands Stripe Checkout integration support to the Professional and Developer plugin distributions, in addition to the Platinum edition.
+
+= 5.3.45 =
+
+* Revamped the AI Assistant module to utilize the WebMLL library, enabling completely free, in-browser inferencing.
+
+= 5.3.44 =
+
+* Modifies the WordPress editor block.
+
+= 5.3.43 =
+
+* Modifies the calculated fields: Now, when you check the currency option in the field settings, the plugin automatically enforces two decimal places for decimal results.
+* Adds a new, predefined form designed to evaluate password strength.
+
+= 5.3.42 =
+
+* Modifies the DIV control to give more control over the styles that affect the contained fields.
+* Fixes a minor issue in the fields list popup to enhance the user experience.
+* Adds a new predefined form and category of predefined forms for AI. This new form implements a texts translator using an AI model for translating texts directly in the browser.
+
+= 5.3.41 =
+= 5.3.40 =
+
+* Enhances Phone controls to display phone numbers with hyphen separators in summary views and HTML content fields.
+* Updates Number and Currency controls to support the assignment of unformatted numeric values.
+* Improves collapsible fieldset controls by enabling users to open and close fieldsets using keyboard-only interactions.
+* Adds a callback attribute to all DS fields, facilitating preprocessing of record values before they are assigned (affects both Developer and Platinum plugin distributions).
+* Upgrades the Google Places add-on to support the latest Google Place APIs while still maintaining compatibility with the legacy API (available in the Platinum plugin distribution).
+
+= 5.3.39 =
+= 5.3.38 =
+
+* Upgrades the Purify library version.
+
+= 5.3.37 =
+
+* Added a new feature in the Advanced Settings tab of the fields settings to allow to hide them by default.
+* Updated the registration form add-on to support registering users with different roles using the same form. Additionally, users can now select their role directly from the form (available in both the Developer and Platinum plugin versions).
+* Redesigned the interface of the PDF Generator add-on to simplify file generation for languages requiring special characters. This enhancement is part of the Platinum plugin version.
+
+= 5.3.36 =
+
+* Introduces new video tutorials and updates the landing page.
+* Enables the display of all entry details simultaneously in the entries section. Professional, Developer, and Platinum plugin versions.
+
+= 5.3.35 =
+
+* Ensures full compatibility with WordPress 6.8.
+
+= 5.3.34 =
+
+* Eliminates dependencies on third-party libraries.
+* Updates the server-side validation module to display the titles of fields that fail validation and logs errors in the error log file.
+* Enhances the default forms.
+* Upgrades the Select2 library.
+* Optimizes database queries.
+* Modifies the form preview module.
+* Enhances the visualization of entries in the dashboard widget and entries list for the Professional, Developer, and Platinum plugin versions.
+
+= 5.3.33 =
+
+* Includes new predefined forms.
+
+= 5.3.32 =
+
+* Enhances the fields list window by displaying additional field details, such as control types.
+* Introduces a floating menu on the main plugin page for quicker access to settings, thereby enhancing the user experience.
+* Improves the -create new form- module for smoother operation.
+* Adjusts form submission handling to prevent duplicate entries when using a custom submit button.
+* Upgrades the form builder to deliver a better experience for developers on small screens, including mobile devices.
+* Ensures full compatibility with reCAPTCHA Enterprise in both Developer and Platinum plugin distributions.
+
+= 5.3.31 =
+
+* Enhances forms performance.
+* Updates the form preview module.
+* Refines the Users Permissions add-on—streamlining role and user selection/deselection for an improved user experience (available in Developer and Platinum plugin versions).
+
+= 5.3.30 =
+
+* Introduces a new option in the floating menu for easier access to the form preview.
+* Enhances the form creation module.
+* Enables customization of error bubble designs via the Form Settings / Advanced Settings tab.
+* Streamlines the configuration of the email copy for users (available in Professional, Developer, and Platinum plugin versions).
+* Improves the functionality of the reCAPTCHA add-on (available in Developer and Platinum plugin versions).
+* Provides support for using short labels in Stripe integration metadata (available in the Platinum plugin version).
+
+= 5.3.29 =
+
+* Improves dynamic formatting for Number and Currency controls, making them more coherent.
+* Enhances functionality of Phone controls.
+* Resolves a minor issue with the RESETFORM operation.
+* Fixes a notice in the load language module.
+* Improves the user accessibility.
+
+= 5.3.28 =
+
+* Redesigned interface for form creation.
+* Improved accessibility.
+* Enhanced equations editor.
+
+= 5.3.27 =
+
+* Fixes an issue related to the ignorefield CSS class.
+* Adds support for reCAPTCHA Enterprise in both the Developer and Platinum plugin versions.
+
+= 5.3.26 =
+
+* Enhances Date/Time controls to enable showing/hiding the date-time format in field labels and to customize their design via the fields' Advanced Settings section.
+* Enhances the Summary control to simplify customization of the fields' row design in generated summaries using the Advanced Settings section.
+* Enhances the Fieldset control to allow modification of the styles applied to the fieldset tag through the fields' Advanced Settings sections.
+
+= 5.3.25 =
+
+* Updates the "Troubleshoots Area and General Settings" section, providing website developers with additional control over the form.
+
+= 5.3.24 =
+
+* Introduces a new attribute in the media controls to defer image loading until images are visible within the viewport.
+* Updates the Text Operations module, implementing the CHARAT, CHARTOCODE, and CODETOCHAR operations.
+* Enhances the Mathematics Operations module with improved ISFRACTION and SIMPLIFYFRACTION operations.
+
+= 5.3.23 =
+
+* Includes new predefined forms.
+* Enhances the WooCommerce add-on by addressing a minor multipage form issue (Developer and Platinum versions).
+* Overhauls the CSV Generator add-on for the Platinum version, reducing memory usage by 50%.
+
+= 5.3.22 =
+
+* Resolves an issue with date format validation on the server side.
+* Adjusts the appearance of date/time fields by applying a minimum width to the date component.
+* Enhances user experience in the form builder and streamlines access to various sections.
+* Associates an icon with the plugin menu option in the WordPress sidebar for easier identification.
+* Improves the layout of columns for better organization and readability.
+
+= 5.3.21 =
+
+* Fixes a minor conflict of column1 class styles into container with display:flex.
+
+= 5.3.20 =
+= 5.3.19 =
+
+* Optimizes plugin performance by eliminating the evaluation of duplicate equations, ensuring faster and more efficient processing.
+* Refines the columns layout system for a more intuitive and seamless user experience.
+* Elevates the AI assistant's capabilities, delivering smarter and more accurate support for your questions.
+
+= 5.3.18 =
+
+* Enhances the Date/Time control to improve the alignment between the date and time components for a more cohesive user experience.
+* Updates the container fields—DIV, FIELDSET, and POPUP—by introducing a new attribute that facilitates better alignment of the contained fields with one another.
+* Revamps the validation popup to make it easier to identify which validation rules have failed, including for hidden fields.
+
+= 5.3.17 =
+
+* Addresses an inconsistency in the validation of date fields.
+* Introduces a new predefined form for loading metadata from Archive.org.
+
+= 5.3.16 =
+
+* Enables validation of time components within date and time controls.
+* Introduces two new operations: DISABLEEQUATION and ENABLEEQUATION, to deactivate or activate equations in specific calculated fields.
+* Resolves an issue affecting quantity boxes in checkbox and radio button controls when the switch format is enabled.
+* Features a new video tutorial.
+* Updates the DS fields in both the Developer and Platinum plugin versions.
+
+= 5.3.15 =
+
+* Improve the SEO score when forms are accessed directly or embedded within an iframe.
+
+= 5.3.14 =
+
+* Introduces a new attribute in the form settings that enables the form to be reset after submission via AJAX.
+* Improves the visual presentation of radio buttons and checkboxes on smaller screens, such as mobile devices.
+* Resolves an issue with the font family used in captcha images for the Professional, Developer, and Platinum versions.
+* Updates the WooCommerce add-on for the Developer and Platinum versions.
+* Enhances the DISTANCE operations module for the Developer and Platinum versions.
+* Revamps the SagePay add-on for the Platinum version.
+
+= 5.3.13 =
+
+* Resolves a compatibility issue with WordPress versions prior to 5.5.
+* Addresses an issue with the confirmation dialog that appears when saving changes to the form.
+
+= 5.3.12 =
+
+* Prevents developers from closing the form builder without saving any modifications made to the form.
+* Resolves a notice by ensuring the language files are properly loaded.
+* Updates the Verification Code add-on to prevent the code from being sent to the email address if it matches the logged-in user's email (available in Developer and Platinum versions).
+
+= 5.3.11 =
+
+* Enhances the module responsible for evaluating equations to improve its capability to utilize fields from other forms on the same page.
+* Introduces a new predefined form that retrieves information from third-party services.
+
+= 5.3.10 =
+
+* Fixes an issue in the Phone control.
+
+= 5.3.9 =
+= 5.3.8 =
+
+* Updated the HTML Content control to ensure consistency between its appearance in the form builder and the public-facing form.
+* Implemented minor enhancements to the DropDown, Radio Buttons, Checkbox, and container controls for improved functionality and user experience.
+* Modified the Autocomplete Places add-on to trigger a place_changed event when a user selects a location from the list, passing the place properties as the second parameter (specific to the Platinum plugin version).
+
+= 5.3.7 =
+
+* Enhances the user experience by placing the "Add New Form" button directly above the form builder for easier access.
+* Updates the phone control to prevent duplicate prefixes from being entered.
+* Improves the process for evaluating default equations to prevent multiple evaluations.
+* Activates the auto-update feature in the plugin commercial distributions.
+
+= 5.3.6 =
+
+* Updates the form validation process to provide users with immediate feedback on incorrect values or required fields.
+* Makes minor adjustments to the processing of calculated field equations.
+* Enhances the HTML Content control to offer more detailed information to form developers regarding its content.
+
+= 5.3.5 =
+= 5.3.4 =
+= 5.3.3 =
+
+* Fixes a conflict with Elementor cache.
+
+= 5.3.2 =
+
+* Normalize HTML tags.
+* Modifies the HTML Content field.
+* Fixes an issue with symbols in dropdown fields.
+
+= 5.3.1 =
+
+* Fixes an issue with the form advanced settings CSS rules.
+
+= 5.3.0 =
+
+* Reimplemented the module that evaluates the equations to improve the loading forms performance.
+* Adds the new domRef module to the getField returned object to access the field dom object.
+* Adds the LANGUAGE operation to the Location Operations module to get the user language based on the browser's language.
+* Corrected a minor issue in the Instructions Text controls.
+* Improves the Signature add-on (Platinum plugin version).
+
+= 5.2.64 =
+
+* Reimplemented the sanitization module on both the server and client sides to prevent developers from entering unauthorized tags and events. Special thanks to Dmitrii, penetration tester at CleanTalk Inc., for his invaluable contributions.
+* Redesigned the Captcha module to ensure that only captcha images associated with existing forms are generated, while also restricting attribute values for enhanced security. A heartfelt thank you to Max Boll (_b0lli) and Tiffany T. at WordFence for their support and expertise.
+* Introduced a new cff-collapsible event that triggers each time a collapsible fieldset control is either collapsed or expanded. The accompanying callback function will receive a parameter indicating the fieldset's state: true for expanded and false for collapsed.
+* Added a new option in the "Troubleshoot Area & General Settings" section that allows users to render only the visible forms on the page, or all forms, to enhance page loading performance.
+* Resolved minor issues related to the styles in the Form Builder.
+* Corrected a minor positioning issue with the error message tooltip in the acceptance control, improving user experience.
+
+= 5.2.63 =
+
+* Completes malformed HTML tags.
+* Encloses the form context buttons (Previous and Next page buttons, and the submit button) in a div tag with the cff-form-buttons-container class name to make positioning them easier.
+* Fixes a minor issue formatting the calculated field values when they are entered manually.
+* Includes a 'go to top' link in the floating frame with the save settings button in the form builder.
+
+= 5.2.62 =
+
+* Strengthens the security of the plugin. Special thanks to Dmitrii penetration tester in CleanTalk inc and Animesh Gaurav Security Researcher for WPScan and Jetpack for their invaluable contributions.
+
+= 5.2.61 =
+
+* Modifies the Phone control.
+* Improves the form performance.
+* Makes the save button more accessible in the forms builder.
+* Improves the forms cache (Professional, Developer, and Platinum plugin versions).
+* Modifies the CFFCHART operation (Developer and Platinum plugin versions).
+
+= 5.2.60 =
+
+* Includes a new predefined form to improve typing.
+
+= 5.2.59 =
+
+* Updates template 04 to address accessibility issues, such as improving the contrast between background and button colors, as well as the text colors for user instructions.
+* Modifies the settings of the print button to include additional information about class names used to exclude fields or form elements from printing.
+* Modifies the advanced equations editor to hide the sidebar on small devices' screens.
+* Improves accessibility in the form builder.
+
+= 5.2.58 =
+
+* Modifies the module that processes the default values.
+* Fixes a minor issue with the phone control.
+* Include a new predefined form for listing universities.
+* Improves the User Registration add-on (Developer and Platinum plugin versions).
+* Fixes an issue in the Brevo add-on (Platinum plugin version).
+
+= 5.2.57 =
+
+* Enhances the accessibility of the forms builder.
+* Modifies the forms builder styles.
+* Implements new block/endblock tags pairs in the notification emails and thank you pages for coupon, payment_status, and payment_option.
+* Enhances the WooCommerce add-on (Developer and Platinum plugin versions).
+* Modifies the iCal, MailPoet, PDF Generator, PrintFriendly and Stripe add-ons (Platinum plugin version).
+
+= 5.2.56 =
+= 5.2.55 =
+
+* It is the first step in enhancing the accessibility of the forms builder.
+* Introduces two new actions, cpcff_wp_head, and cpcff_wp_footer, which are triggered when forms are loaded directly, either through their URL or within an iframe tag, allowing for the inclusion of additional resources.
+* Implements the WEEKNUM2 operation. Unlike WEEKNUM, it considers the weekday of the first day of the year.
+
+= 5.2.54 =
+
+* Include a new predefined form to obtain the visitors' details.
+* Includes new video tutorials.
+* Modifies the RecordSet DS field to support Secured Custom Fields (Developer and Platinum versions).
+* Modifies the Sendinblue add-on (Platinum version).
+
+= 5.2.53 =
+
+* Allows configuring the quantity boxes in checkbox fields to display only when the corresponding choice is ticked.
+* Fixes a minor issue in the Number and Currency fields in the form builder when default values are set to other fields.
+* Modifies Template 06 by darker blue to increase the contrast ratio, thereby improving the Google score.
+
+= 5.2.52 =
+
+* Allows entering associate a quantity box with every checkbox field choice.
+* Modifies the Summary control to support the changes in the checkbox control.
+* Includes the async parameter in the loading=async parameter when loading the Google Maps API for distance operations (Developer and Platinum plugin versions) and Google Places add-on (Platinum plugin version).
+
+= 5.2.51 =
+
+* Allows passing arrays as parameter values to the thank you page URL.
+* Modifies the getURLParameters in the URL Operations module.
+* Modifies the getField operation in the Managing Fields Operations module.
+
+= 5.2.50 =
+
+* Includes a new pair of attributes in the form settings, allowing users to submit the form without being redirected to the thank you page.
+* Modifies the module that loads the forms into iFrame tags. The previous version generates a different URL every time.
+* Modifies the module that registers the form height.
+* Fixes some issues in the RATE operation in the Financial Operations Module (Developer and Platinum plugin versions).
+* Updates the Users Permissions add-on to enable administrators to access, edit, and delete submissions from anonymous users on the public website (Developer and Platinum plugin versions).
+
+= 5.2.49 =
+
+* Upgrades the jquery.validator library.
+
+= 5.2.48 =
+
+* Accepts the choices_separator attribute in the checkbox and multi-select dropdown fields' tags to configure the choices separator in the notification emails.
+* Fixes a warning message processing the phone fields.
+* Implements a new predefined form to verify VAT numbers.
+* Implements the RATE operation in the Financial Operations Module (Developer and Platinum versions).
+* Modifies the Signature add-on (Platinum plugin version).
+
+= 5.2.47 =
+= 5.2.46 =
+
+* Fixes a security issue (Special thanks to Max Boll and the WordFence Team for reporting the issue). Now, it includes a new attribute in fields' settings to accept HTML code in their values.
+* Modifies the PREC operation.
+* Fixes a minor issue in the QRCode control.
+* Allows including the from_page information in the exported CSV files (Professional, Developer, and Platinum plugin versions).
+
+= 5.2.45 =
+
+* Fixes a typo.
+
+= 5.2.44 =
+
+* Enhances the plugin security by implementing specific server-side validation rules per control type.
+
+= 5.2.43 =
+
+* Allows using style attributes in the fields' labels, instructions for users, or HTML content fields.
+* Fixes an issue with the search box in DropDown fields when the load scripts method in the troubleshoots area was configured as direct.
+* Implements a new predefined form that retrieves holidays from the Nager.Date service.
+
+= 5.2.42 =
+
+* Modifies the loading process of the language files to ensure compatibility with WP 6.7.
+* Improves the Date/Time Operations module.
+* Modifest the plugin deactivation process (free plugin distribution).
+* Implements additional predefined forms for Cryptocurrency operations.
+* Fixes minor issues in Text Area control.
+* Publishes new video tutorial.
+
+= 5.2.41 =
+
+* Fixes a conflict with Elementor.
+
+= 5.2.40 =
+= 5.2.39 =
+
+* Improves the plugin settings page.
+* Implements new predefined forms for cryptocurrencies.
+* Improves the areas for entering the notification email content.
+* Implements additional solutions when optimizers or cache-managing plugins affect the loading forms process.
+* Modifies the WebHook and SalesForce add-ons to support the same fields and informative tags supported by the notification emails (Developer and Platinum plugin versions).
+* Fixes some minor errors in the PDF Generator settings (Platinum plugin version)
+
+= 5.2.38 =
+
+* Modifies the set_minDate and set_maxDate methods in the date/time controls to update the field values.
+* Automatically recalculates calculated fields, regardless of manual evaluation settings, when needed.
+* Modifies the module that allows assigning the default fields' values at the runtime.
+* Format the final price properly after applying the discounts ( Professional, Developer, and Platinum plugin versions).
+* Allows replacing the discount applied text from the form settings ( Professional, Developer, and Platinum plugin versions).
+* Adjusts PayPal Checkout add-on to enable the use of transaction_id tags with them, not just PayPal Standard (Platinum plugin version)
+
+= 5.2.37 =
+
+* Enhanced field appearance in the form builder
+* Improved predefined design template 02
+* Corrected slider control to prevent improper value assignments from affecting the field
+* Resolved minor issue with the calculate button's animation in certain scenarios
+* Modified date/time operations module to avoid empty date fields impacting operation results
+* Adjusted Stripe and Stripe Checkout add-ons to enable the use of transaction_id tags with them, not just PayPal (Platinum plugin version)
+
+= 5.2.36 =
+
+* Modernizes the predefined designs starting by the template 01.
+* Updates the module that retrieves the page URL to accurately identify the correct URL when the form is loaded within an iframe.
+* Adjusts the HTML Content control to prevent contained tags from impacting the form builder.
+* Enhances the functionality of the Phone control.
+* Eliminates redundant vendor libraries.
+
+= 5.2.35 =
+
+* Modifies the container fields.
+
+= 5.2.34 =
+
+* Implements new predefined form template.
+* Modifies the time calculation modules of DATEDIFF operation.
+* Implements new changes in the Phone control.
+* Modifies the Google Analytics add-on (Platinum plugin version).
+
+= 5.2.33 =
+
+* Implements the two decimals format in number controls.
+* Modifies DropDown control settings, replacing the select2 option label for a more intuitive text.
+* Modifies the ENABLEEQUATIONS, DISABLEEQUATIONS, and EVALEQUATIONS operations to improve the form identification in pages with multiple forms.
+* Modifies the Users Permissions add-on to include the Lost Password link in the log-in form (Developer and Platinum plugin versions).
+
+= 5.2.32 =
+
+* Modifies the container fields to avoid Hidden, Hidden DS,  and RecordSet DS controls affecting the columns' format.
+* Modifies the Phone controls to adjust its width.
+* Modifies the IRR operation by implementing more robust convergence methods (Developer and Platinum plugin versions)
+* Implements new PayPal Checkout add-on improvements (Platinum plugin distribution).
+* Modifies the Verification Code add-on to allow verifying both email addresses and phone numbers (Platinum plugin version).
+
+= 5.2.31 =
+
+* Fixes some issues in the Phone control.
+* Adds a new predefined template.
+* Improves the PayPal Checkout add-on (Platinum plugin distribution).
+
+= 5.2.30 =
+
+* Modifies the position of the validation error messages in the form.
+* Reimplements the Phone control to support dynamic field structure and validation rules based on the country code.
+* Adds a new predefined template.
+
+= 5.2.29 =
+
+* Modifies the Equations Advanced Editor to allow the sidebar to collapse to give more space to the code editor.
+* Moves the calculated-fields-form-bk directory for forms backup to the /wp-content/uploads directory.
+* Adds a new predefined template.
+
+= 5.2.28 =
+
+* Fixes an issue in the calculated fields conditional rules.
+* Modifies the GOTOPAGE operation to prevent users from attempting to jump to non-existent page indexes.
+* Modifies the validation module to display the validation error associated with hidden fields.
+* Modifies the DS fields in the Developer and Platinum plugin versions.
+* Modifies the Stripe Checkout add-on to prevent it affects the WooCommerce integration add-on.
+
+= 5.2.27 =
+
+* Modifies the left and right-aligned labels.
+* Modifies the ACTIVATEFIELD, IGNOREFIELD, SHOWFIELD, and HIDEFIELD operations to avoid ambiguities when multiple forms are inserted on the page.
+
+= 5.2.26 =
+
+* Fixes a minor issue with Dropdown choices with large text when the Select2 component is enabled.
+* Includes minor modifications in the form builder.
+* Adds new predefined templates.
+
+= 5.2.25 =
+
+* Modifies the checkbox behavior when one choice is entered as the maximum number of choices to select allowed.
+* Display a frame with invalid validation rules to allow identifying the hidden fields that fail.
+* Fixes an issue by selecting the fields for notification emails.
+
+= 5.2.24 =
+
+* Adds new predefined form templates.
+
+= 5.2.23 =
+
+* Improves the user experience in creating forms by assigning placeholders to the form attributes.
+* Implements a fields filtering box in the fields list popup windows to facilitate searching the fields in the form.
+
+= 5.2.22 =
+
+* Fixes an issue with the CSS Editor associated with the Customize Form Design attribute.
+
+= 5.2.21 =
+
+* Improve user experience with the forms builder by applying tooltips to the drag-and-drop handler and columns' icons.
+* Includes Reply To attributes in the notification and confirmation email sessions to enter explicit reply-to email addresses.
+* Adds new form templates.
+
+= 5.2.20 =
+
+* Identifies fields with col-... or column... class names assigned with a top-right icon.
+* Improves the admin appearance of data-table control.
+* Adds new form templates for storage requirements and booking.
+
+= 5.2.19 =
+
+* Enhances the CSS edition.
+* Allows controlling the design of the DIV tags that contain the fields' components.
+* Fixes a minor issue in the CSS rules applied to the form title and description.
+* Introduces new form templates for the Pay Raise Percent Calculator and Life Insurance Calculator.
+
+= 5.2.18 =
+
+* Refines CSS styling for form titles and descriptions.
+* Introduces new form templates.
+* Enhances user interaction by displaying a cursor pointer for radio buttons and checkboxes.
+* Disables the link functionality when a form is embedded within an anchor.
+
+= 5.2.17 =
+
+* Implements the predefined class names col-xs-0, col-sm-0, col-md-0, and col-lg-0 to allow hiding fields on mobiles, tables, desktops, and large screens, respectively.
+* Includes a close button in QRCode controls to close the scan dialog.
+* Escape style tags and attributes in form fields to prevent them from affecting the forms builder's functionality.
+* Enhances user experience by automatically scrolling the properties sidebar to the top when selecting a field for editing.
+
+= 5.2.16 =
+
+* Modifies the installation module to create a JSON backup file of the forms structures before updating the database.
+* Adds new form templates.
+* Modifies the CFF Elementor Block.
+
+= 5.2.15 =
+
+* Fixes an issue processing the notification email attachments in the free plugin distribution.
+* Modifies the Form Settings tab, making it easier to customize the form design.
+* Moves the Customize Form Design CSS editor to the Advanced Settings tab in the form settings.
+* Implements new forms template.
+* Modifies the data sources fields (Developer and Platinum plugin versions).
+
+= 5.2.14 =
+
+* Include the internationalization WordPress function in some missed texts.
+* Fixes a warning message handling the form height.
+* Modifies the form importing module (Professional, Developer, and Platinum plugin versions).
+
+= 5.2.13 =
+
+* Allows accessing the public forms from the forms list.
+* Improves the forms builder interface and forms preview.
+* Fixes an issue with datepicker in cached forms.
+
+= 5.2.12 =
+
+* Improves the Gutenberg block displaying the templates' thumbnails and reducing the code required for rendering the forms.
+* Fixes some issues with the AMP support.
+* Improves the feature to load the form into iframe tags.
+
+= 5.2.11 =
+
+* Modifies the Date control to prevent the date selection from closing the Elementor popups when it contains a form.
+* Modifies the predefined template 09.
+* The form shortcode supports the template attribute to allow modifying and applying different templates to the same form via shortcode.
+* Modifies the Gutenberg editor block for form insertion to support the new template attribute.
+
+= 5.2.10 =
+
+* Modifies the Default settings section to activate/deactivate the Submit button by default or change its status in the existing forms.
+* Modifies the CFF - WooCommerce add-on to preserve the summary format in the WooCommerce cart when it uses the new Gutenberg block for the WooCommerce cart (Developer and Platinum plugin versions).
+
+= 5.2.9 =
+
+* Allows access to the form settings sections from the form builder in fullscreen mode.
+* Fixes an issue with the radio buttons and checkbox designs in the predefined template 8.
+* Reimplements the SCIENTIFICTODECIMAL operation in the Mathematical Operations module.
+* Modifies the field dependencies modules to trigger two events: add-ignore and remove-ignore when the dependencies activate or activate the fields.
+* The CFF - WooCommerce add-on implements the get_product_price_with_tax operation to apply the WooCommerce tax to the calculated prices (Developer and Platinum plugin versions).
+
+= 5.2.8 =
+
+* Pauses the fields animation for a conflict with themes.
+
+= 5.2.7 =
+
+* Removes non-essential information from the forms builder.
+
+= 5.2.6 =
+
+* Fixes an issue delaying the evaluation of the equations.
+* Includes new form templates.
+* Modifies the styles applied to the Phone field.
+* Implements minor modifications in the forms builder.
+
+= 5.2.5 =
+
+* Includes a new section in the fields settings to allow customizing the fields desings directly.
+
+= 5.2.4 =
+
+* Allows to assign developer notes to the calculated fields.
+* Assign a top margin to the button controls to align the form fields.
+* Modifies the Calculated Fields Form Gutenberg block to make it responsive.
+* Modifies the export forms and CSV files modules to prevent third-party plugin warnings and notices messages affecting the files generated (Professional, Developer, and Platinum versions).
+* Prevents accidental deletion of submissions by modifying the position of the Delete All submissions button in the entries section (Professional, Developer, and Platinum versions).
+
+= 5.2.3 =
+
+* Fixes a CLS issue on pages with the CFF forms.
+* Fixes a minor visual issue with the Gutenberg module.
+* Modifies the val method in date/time controls.
+
+= 5.2.2 =
+
+* Modifies the fields' lists in dependencies, calculated fields settings, and fields list popup to display the short label if the label is empty.
+* Fixes a minor issue with space characters in the fields' attributes.
+* Adjust the form builder height on desktops.
+* Modifies the HubSpot add-on to support fields' tags in the extra attributes (Platinum plugin version).
+
+= 5.2.1 =
+
+* Fixes an issue in the new submit button.
+
+= 5.2.0 =
+
+* Includes the notification emails feature in the free plugin distribution.
+* Modifies the button control to include the submit option in the button types list.
+* Improves the sanitization methods.
+* Modifies the shortcode for variables.
+* Improves the method to attach additional files to the notification emails.
+* Modifies the path where storing the uploaded files.
+
+= 5.1.65 =
+
+* Increases the precedence of col-xx-xx class names over column#
+* Include a new attribute in the Date controls to allow to restrict dates to a set of valid dates.
+* Modify the User Permissions add-in to integrate the summary attribute with the Multilanguage for Calculated Fields Form plugin (Developer version and Platinum plugin).
+* Modify the server-side equations plugin (developer version and Platinum plugin).
+
+= 5.1.64 =
+
+* Modifies the predefined forms.
+* Modifies the fields list and improves the fields' access from the list.
+* Allows associate developer notes to the HTML Content fields.
+* Modifies the data source fields to allow accessing the DropDown, Radio Button, and Checkbox choices' texts as conditions (Developer and Platinum plugin version).
+* Modifies the DataTable DS control to allow selecting rows (Developer and Platinum plugin version).
+
+= 5.1.63 =
+
+* Fixes an issue estimating the Select2 DropDown fields when they are hidden by default and shown on demand.
+* Modifies how the calculated fields handle the raw fields' values.
+* Modifies the query that reads the entries list (Professional, Developer, and Platinum plugin versions).
+* Fixes a minor issue identifying variations' prices on variable WooCommerce products when there are other variable products on the page (Developer and Platinum plugin versions).
+* Fixes a conflict between reCAPTCHA styles and third-party themes (Developer and Platinum plugin versions).
+
+= 5.1.62 =
+
+* Optimizes the plugin queries.
+* Allows entering placeholder in dropdown fields.
+* Modifies the PDF Generator add-on to integrate it with the Multilanguage for Calculated Fields Form complementary plugin.
+* Modifies the user permissions add-on.
+
+= 5.1.61 =
+
+* Modifies the multiple files behavior in Upload File control to allow adding new files without losing the previous files selected.
+* Modifies the calculated field integration with the advanced editor to avoid conflicts with some browser extensions.
+* Removes deprecated code.
+* Fixes a minor issue with the JS minify module.
+* Fixes an issue in the Popup control on pages with multiple forms.
+
+= 5.1.60 =
+
+* Modifies the fields list popup to allow accessing the fields from the list.
+* Modifies the behavior of tooltips on mobiles.
+* Modifies the DATEDIFF operation.
+* Modifies the module that parses the form.
+* Fixes a minor issue with the fields list in the submissions data source settings (Developer and Platinum plugin versions).
+* Modifies the PayPal Checkout integration (Platinum plugin version).
+
+= 5.1.59 =
+
+* Modifies the PDFPAGESNUMBER to use PDF-JS API.
+* Improves JS modules.
+* Fixes a minor issue in the Captcha module.
+* Improves the WooCommerce add-on (Developer and Platinum plugin versions).
+* Modifies the SagePay integration (Platinum plugin version).
+
+= 5.1.58 =
+
+* Prevent conflicts with other distributions of the plugin.
+
+= 1.2.57 =
+
+* Minor changes in the controls' appearance.
+* Implements the resize popup feature.
+* Fixes an issue in Select2 dropdown fields with long choices' texts.
+* Improves the plugin security by sanitizing and escaping the cp_ref_page parameter (Professional, Developer, and Platinum versions). Thanks to Adam Goodlin, Wordfence Customer Support Engineer.
+
+= 1.2.56 =
+
+* Removes deprecated JS code.
+* Resolved a dependency issue that occurs when there are more than ten forms inserted on a single page.
+* Fixes a warning in the notification emails module (Professional, Developer, and Platinum versions)
+* Modifies the MailPoet add-on (Platinum version)
+
+= 1.2.55 =
+
+* Improves the plugin security. Special thanks to security researcher Rafie Muhammad (Patchstack)
+
+= 1.2.54 =
+
+* Improves the HTML and CSS editors in the "HTML Content" fields and the "Customize Form Design" attribute, respectively.
+* Modifies the "Upload File" control to allow asking for the number of selected files. Ex. fieldname1|r.length
+* Modifies the Popup control to allow dragging the popup window to a different position.
+* Implements the COPYHTML and COPYTEXT operations.
+* Fixes an issue in the module that assigns the default fields' values when the form has active the delay evaluation of the equations.
+
+= 1.2.53 =
+
+* Improves the plugin security. Special thanks to Tiffany Tyson, Customer Support Engineer at WordFence. Pay attention to users who pass additional attributes through the form shortcode. In previous plugin versions, the attributes were converted as Javascript variables with global scope. For example, in shortcodes like [CP_CALCULATED_FIELDS id="1" custom_attr="234"], the plugin created the custom_attr variable with value 234, and you could use it directly in the equations as custom_attr*fieldname1. However, this feature hides a serious problem. You could overwrite global variables like window or document. The current plugin update generates the variable as a property of the cff_var object, and you should use it as cff_var['custom_attr'] or cff_var.custom_attr
+
+The previous code example must be overwritten as cff_var['custom_attr']*fieldname1
+* Modifies the RESETFORM operation.
+* The build button supports Ctrl+click to open forms builder on another tab or window.
+* Implements the Developer Notes attribute in the forms controls to display notes in the forms builder only and help the development of complex forms.
+* Fixes an issue in the Popup control.
+* Modifies the processing of the parameters in the SERVER-SIDE equations (Developer and Platinum plugin versions).
+
+= 1.2.52 =
+= 1.2.51 =
+
+* Replaces jQuery deprecated functions and events.
+* Modifies the equations processing.
+* Fixes an issue with DS controls and SERVER-SIDE equations (Developer and Platinum plugin versions).
+
+= 1.2.50 =
+
+* Fixes an issue with the Readonly attribute in Checkbox, Radio Button, Checkbox DS, and Radion Button DS controls.
+
+= 1.2.49 =
+
+* Implements a Pop-up control.
+* Modifies the form templates.
+* Modifies deprecated jQuery methods.
+* Fixes an issue in the SERVER SIDE Equations add-on (Developer and Platinum plugin versions).
+* Increase the size of the attribute to enter the file content (Platinum plugin version).
+
+= 1.2.48 =
+
+* Fixes a minor issue with equations configured to be evaluated manually.
+* Modifies the settings of DropDown, Checkbox, and Radio Button fields.
+* Modifies the search form builder.
+* Remove invalid characters from the file name in the PDF Generator add-on (Platinum plugin version).
+
+= 1.2.47 =
+
+* Improves the search forms module.
+* Fixes an issue with WEEKNUM operation.
+* Modifies the Managing Fields Operations module to fix an issue with websites that load multiple instances of jQuery.
+* Modifies the submissions' shortcode in the Users Permissions add-on (Developer and Platinum plugin versions).
+
+= 1.2.46 =
+
+* Implements a search box to search by form name and content.
+* Configures the PayPal integration deactivated by default.
+* Includes a new option in the Default Settings section to activate/deactivate the PayPal integration (Professional, Developer, and Platinum plugin versions).
+
+
+= 1.2.45 =
+
+* Fixes a minor issue in the RESETFORM operation and Reset button.
+* Modifies the GETDATEOBJ operation.
+* Modifies the Default Settings section to allow selecting the option to not change the templates used by the forms.
+* Allows controlling the robots metatags in forms and amp pages with the "Do not load the forms with crawlers" attribute in the "Troubleshoot Area & General Settings" section.
+
+= 1.2.44 =
+
+* Modifies the DIV field edition and column identifier.
+* Display characters counter in Text Area controls with max length attribute.
+* Modifies the SHOWFIELD operation.
+* Fixes a minor issue in editable calculated fields.
+
+= 1.2.43 =
+
+* Modifies the forms builder appearance to improve the user experience.
+* Modifies the Stripe add-on to accept other payment methods than card only.
+
+= 1.2.42 =
+
+* Modifies the predefined value assignments of controls to allow numbers with leading zeros.
+
+= 1.2.41 =
+
+* Improves the plugin security thanks to emad.
+* Includes a new feature to align the fields' labels through their settings.
+* Includes new features to align the form title and description, select the header tag to apply, as well as modify their colors through the form settings tab.
+* Fixes minor errors in the form templates.
+* Modifies the Users Permissions add-on and data source fields backend (Developer and Platinum plugin versions).
+
+= 1.2.40 =
+
+* Includes a pair of classes to allow including page breaks on printed forms.
+* Modifies the Date/Time control.
+* Modifies the z-index on Datepickers to display them when forms are loaded into Elementor pop-ups.
+
+= 1.2.39 =
+
+* Implements the RANDOM operation. It allows getting random numbers in a range.
+* Modifies the forms builder dashboard.
+
+= 1.2.38 =
+
+* Fixes an issue in the DATEOBJ operation.
+* Includes some styles to force the browser to print the on/off controls and fields' backgrounds by pressing the Print button or calling the PRINTFORM operation.
+
+= 1.2.37 =
+
+* Includes some modifications in the forms builder to improve the user experience by selecting, duplicating, or deleting fields from the form.
+* Includes a new option in the Date control to make the calendar always visible.
+* Fixes some inaccuracies in the date/time operations.
+
+= 1.2.36 =
+
+* Implements the SINGLEDIGIT operation.
+* Includes new predefined forms.
+* Modifies the submission process (Professional, Developer, and Platinum versions).
+
+= 1.2.35 =
+
+* Modifies the Phone control.
+* Fixes a conflict with third-party code in the browser persistence module.
+* Modifies the quantity integration between WooCommerce products and form fields (Developer and Platinum plugin versions).
+
+= 1.2.34 =
+
+* Fixes an issue with the maxlength attribute of fields.
+* Fixes a conflict on pages that load multiple jQuery versions.
+* Implements the JSONTOCSV operation to generate a CSV file directly on the client side.
+* Modifies the quantity integration between WooCommerce products and form fields (Developer and Platinum plugin versions).
+
+= 1.2.33 =
+
+* Fixes a minor issue with the set_step method in the slider controls.
+
+= 1.2.32 =
+
+* Fixes an issue in the tooltips.
+
+= 1.2.31 =
+
+* Implements the Cookies Operations modules to write, read, check, and delete cookies.
+* Modifies the QR control to stop the camera once it scans the QR code.
+
+= 1.2.30 =
+
+* Modifies the Checkbox control to allow configuring a minimum number of choice to select, and not only a maximum.
+
+= 1.2.29 =
+
+* Prevents that variables included with the CP_CALCULATED_FIELDS_VAR shortcode overwrite global and other context variables (Thanks to NGÔ THIÊN AN (ancorn_ from VNPT-VCI)).
+* Modifies the CFFCHART operation to allow the use of ChartJS 4.X.X API versions (Developer and Platinum versions of the plugin).
+* Modifies the WebHook add-on (Developer and Platinum versions of the plugin).
+
+= 1.2.28 =
+
+* Loads the default values after completing the form rendering.
+* Fixes an issue in Date fields when only the time component is enabled.
+* Modifies the CDATE operation to display the result in the correct format when its parameter value is zero.
+* Modifies the TIMETODECIMAL operation to accept the time in 12 hours format (with am/pm).
+* Includes the Bcc attribute in the "Email copy to the user" section to receive an exact copy of the confirmation email sent to the user (Professional, Developer, and Platinum plugin versions).
+
+= 1.2.27 =
+
+* Modifies the require_once instructions to load the files with absolute paths.
+
+= 1.2.26 =
+
+* Paginates the list of forms and sorts them in descending order, putting the newest forms first.
+* Make minor changes in tabs' styles in the forms builder.
+
+= 1.2.25 =
+
+* Improves the integration with LiteSpeed Cache.
+* Browsers in Android devices ignore the maxlength attributes. The current update modifies this behavior.
+
+= 1.2.24 =
+
+* Assigns the cff-form-title class name to the form title and cff-form-description to its description to facilitate their design modification.
+* Assigns the cff-fieldset-field class name to the Fieldset control and cff-div-field to the Div control.
+* Implements the validate attribute in the calculated fields to validate the equations' results immediately after their evaluation.
+* Modifies the CFF - WooCommerce add-on to fix a conflict with third-party themes (Developer and Platinum plugin versions).
+
+= 1.2.23 =
+
+* Implements the LEADINGZERO operation in the Date/Time operations module.
+* Fixes deprecated notices in the latest PHP version.
+* Modifies the Users Permissions add-on to improve the user experience by deselecting items from the roles and users lists (Developer and Platinum versions of the plugin).
+
+= 1.2.22 =
+
+* Modifies the AI Assistance integration module.
+* Modifies the Date control to make it easier to leave the field empty or to select the current date.
+* Modifies the sanitize module to improve the plugin security. It forces removing the script tags from data, even if they were added to the allowed tags list by third-party plugins.
+* Modifies the Checkbox DS and Radio Button DS controls to avoid displaying the undefined text when data source records do not include the columns used for the choices texts or values  (Developer and Platinum versions of the plugin).
+
+= 1.2.21 =
+
+* Fixes an issue in the RESETFORM operation that was not resettings the values of the calculated field.
+* Modifies the database data source in the DS fields set to include the Distinct attribute (Developer and Platinum versions of the plugin).
+
+= 1.2.20 =
+
+* Implements the asynchronous attribute in the forms shortcodes to combine with the iframe attribute. It improves the loading speed process of pages with forms loaded into iframes.
+* Modifies the reCAPTCHA add-on to allow multiple forms protected with reCAPTCHA on the same page (Developer and Platinum versions of the plugin).
