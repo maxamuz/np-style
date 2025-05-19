@@ -1,10 +1,10 @@
 .scc-calculator {
-  max-width: 400px;
-  margin: 20px auto;
-  padding: 20px;
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  background: #f9f9f9;
+  /* max-width: 400px; */
+  /* margin: 20px auto; */
+  padding: 40px 20px;
+  /* border: 1px solid #ddd; */
+  /* border-radius: 8px; */
+  background: #66B3E2;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
@@ -46,21 +46,21 @@
 
 .scc-result {
   margin-top: 20px;
-  padding: 15px;
-  background: #e9f7ef;
-  border-radius: 4px;
+  padding: 30px;
+  background: #00507F;
+  max-height: 145px;
   text-align: center;
 }
 
 .scc-result h4 {
   margin: 0 0 10px 0;
-  color: #2e7d32;
+  color: #fff;
 }
 
 #scc-total {
   font-size: 24px;
   font-weight: bold;
-  color: #1b5e20;
+  color: #fff;
 }
 
 /* Дополнительные стили для новых элементов */

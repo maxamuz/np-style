@@ -25,10 +25,10 @@ jQuery(document).ready(function ($) {
       success: function (response) {
         if (response.success) {
           var result = `
-                        <div>Стоимость товаров: ${response.data.subtotal} руб.</div>
+                        <!--<div>Стоимость товаров: ${response.data.subtotal} руб.</div>
                         <div>Наценка за обработку: +${response.data.processing_rate}%</div>
                         <div>Скидка: -${response.data.discount_value} руб.</div>
-                        <div>Доставка: +${response.data.delivery} руб.</div>
+                        <div>Полотно: ${response.data.delivery} руб.</div>-->
                         <div class="total-sum">Итого: ${response.data.total} руб.</div>
                     `;
           $("#scc-total").html(result);

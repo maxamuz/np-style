@@ -268,3 +268,27 @@ html {
     }
   }
 }
+
+/* Калькулятор */
+
+.calculator {
+  background-color: #edf7ff;
+  .field-price {
+    display: none;
+  }
+  h3 {
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+  }
+  p {
+    text-align: center;
+    font-size: 20px;
+    width: 470px;
+    margin: 18px auto;
+  }
+  .scc-body {
+    display: flex;
+    justify-content: space-around;
+  }
+}

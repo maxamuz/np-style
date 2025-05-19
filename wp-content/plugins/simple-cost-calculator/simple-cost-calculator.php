@@ -34,69 +34,73 @@ class SimpleCostCalculator
     {
         ob_start(); ?>
         <div class="scc-calculator">
-            <h3>Расширенный калькулятор стоимости</h3>
+            <h3>Калькулятор</h3>
+            <p>Рссчитайте стоимость вашего полотна с уствновкой</p>
+            <div class="scc-body">
+                <!-- Основные поля -->
+                <div class="scc-field-wrapper">
+                    <div class="scc-field">
+                        <label for="scc-quantity">Площадь (м2):</label>
+                        <input type="number" id="scc-quantity" min="1" step="0.25" value="1" class="scc-input">
+                    </div>
 
-            <!-- Основные поля -->
-            <div class="scc-field">
-                <label for="scc-quantity">Количество:</label>
-                <input type="number" id="scc-quantity" min="1" value="1" class="scc-input">
-            </div>
+                    <div class="scc-field field-price">
+                        <label for="scc-price">Цена:</label>
+                        <input type="number" id="scc-price" min="0" step="0.01" value="100" class="scc-input">
+                    </div>
 
-            <div class="scc-field">
-                <label for="scc-price">Цена за единицу:</label>
-                <input type="number" id="scc-price" min="0" step="0.01" value="100" class="scc-input">
-            </div>
+                    <div class="scc-field">
+                        <label for="scc-price-metr">Доп. углы:</label>
+                        <input type="number" id="scc-price-metr" min="0" step="1" value="0" class="scc-input">
+                    </div>
 
-            <div class="scc-field">
-                <label for="scc-price-metr">Цена за метр:</label>
-                <input type="number" id="scc-price-metr" min="0" step="0.01" value="15" class="scc-input">
-            </div>
+                    <div class="scc-field">
+                        <label>Вариант обработки:</label>
+                        <div class="scc-radio-group">
+                            <label class="scc-radio">
+                                <input type="radio" name="scc-processing" value="1.0" checked>
+                                <span class="radio-checkmark"></span>
+                                Люстра
+                            </label>
+                            <label class="scc-radio">
+                                <input type="radio" name="scc-processing" value="1.15">
+                                <span class="radio-checkmark"></span>
+                                Светильники
+                            </label>
+                        </div>
+                    </div>
 
-            <div class="scc-field">
-                <label>Вариант обработки:</label>
-                <div class="scc-radio-group">
-                    <label class="scc-radio">
-                        <input type="radio" name="scc-processing" value="1.0" checked>
-                        <span class="radio-checkmark"></span>
-                        Люстра
-                    </label>
-                    <label class="scc-radio">
-                        <input type="radio" name="scc-processing" value="1.15">
-                        <span class="radio-checkmark"></span>
-                        Светильники
-                    </label>
+                    <!-- Новые поля -->
+                    <div class="scc-field">
+                        <label for="scc-delivery">Полотно:</label>
+                        <select id="scc-delivery" class="scc-input">
+                            <option value="0">Выберите</option>
+                            <option value="300">Матовое</option>
+                            <option value="500">Глянцевое</option>
+                            <option value="600">Сатиновое</option>
+                        </select>
+                    </div>
+
+                    <div class="scc-field">
+                        <label for="scc-material">Материал:</label>
+                        <select id="scc-material" class="scc-input">
+                            <option value="1.0">Стандарт (без наценки)</option>
+                            <option value="1.2">Премиум (+20%)</option>
+                            <option value="1.5">Люкс (+50%)</option>
+                        </select>
+                    </div>
+
+                    <div class="scc-field">
+                        <label for="scc-discount">Скидка (%):</label>
+                        <input type="number" id="scc-discount" min="0" max="100" value="0" class="scc-input">
+                    </div>
+
+                    <button id="scc-calculate" class="scc-button">Рассчитать</button>
                 </div>
-            </div>
-
-            <!-- Новые поля -->
-            <div class="scc-field">
-                <label for="scc-delivery">Доставка:</label>
-                <select id="scc-delivery" class="scc-input">
-                    <option value="0">Самовывоз</option>
-                    <option value="300">Курьер (300 руб.)</option>
-                    <option value="500">Экспресс (500 руб.)</option>
-                </select>
-            </div>
-
-            <div class="scc-field">
-                <label for="scc-material">Материал:</label>
-                <select id="scc-material" class="scc-input">
-                    <option value="1.0">Стандарт (без наценки)</option>
-                    <option value="1.2">Премиум (+20%)</option>
-                    <option value="1.5">Люкс (+50%)</option>
-                </select>
-            </div>
-
-            <div class="scc-field">
-                <label for="scc-discount">Скидка (%):</label>
-                <input type="number" id="scc-discount" min="0" max="100" value="0" class="scc-input">
-            </div>
-
-            <button id="scc-calculate" class="scc-button">Рассчитать</button>
-
-            <div class="scc-result">
-                <h4>Итоговая стоимость:</h4>
-                <div id="scc-total">0.00</div>
+                <div class="scc-result">
+                    <h4>Итоговая стоимость:</h4>
+                    <div id="scc-total">0.00</div>
+                </div>
             </div>
         </div>
         <?php

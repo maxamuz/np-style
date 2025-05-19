@@ -154,7 +154,19 @@ get_header();
 
     </div>
 </div>
-<?php echo do_shortcode('[cost_calculator]');?>
+
+<div class="calculator">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                Как пользоваться калькулятором натяжных потолков?
+            </div>
+            <div class="col">
+                <?php echo do_shortcode('[cost_calculator]'); ?>
+            </div>
+        </div>
+    </div>
+</div>
 <main id="primary" class="site-main">
 
     <?php
